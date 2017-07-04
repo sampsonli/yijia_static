@@ -7,6 +7,14 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width,target-densitydpi=high-dpi,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <script type="text/javascript">
+        init();
+        window.onresize = init;
+        function init(){
+            document.documentElement.style.fontSize =
+                document.documentElement.clientWidth / 7.5 + 'px';
+        }
+    </script>
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
