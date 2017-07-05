@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>我的保函</title>
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="format-detection" content="telephone=no">
@@ -22,8 +22,33 @@
     <header class="header l-flex-row">
         <div class="l-flex-1 l-box-center">全部订单<i class="sjx"></i></div>
         <div class="l-flex-1 l-box-center">所有地区<i class="sjx"></i></div>
-        <div class="l-flex-1 l-box-center">更多<i class="sjx"></i></div>
+        <div class="l-flex-1 l-box-center more-tab">更多<i class="sjx"></i></div>
     </header>
+    <section class="search-more" style="display: none">
+        <div class="search-more-dialog">
+            <ul class="l-flex-row l-text-center search-more-tab">
+                <li class="l-flex-1 l-w-0 search-more-tab-item cur">开标日期区间查询</li>
+                <li class="l-flex-1 l-w-0 search-more-tab-item">搜索项目名称</li>
+            </ul>
+            <ul class="search-more-content">
+                <li class="search-more-content-item l-box-vertical-center-begin">
+                    <span>起始日期：</span>
+                    <input class="input"/>
+                </li>
+                <li class="search-more-content-item l-box-vertical-center-begin">
+                    <span>结束日期：</span>
+                    <input class="input"/>
+                </li>
+                <li class="search-more-content-item l-box-vertical-center-begin">
+                    <span>担保公司：</span>
+                    <input  class="input" placeholder="某某某公司"/>
+                </li>
+            </ul>
+            <div class="search-more-btn-qty">查询</div>
+        </div>
+        <div class="search-more-layer l-full"></div>
+    </section>
+
     <article class="l-flex-1 l-relative content">
         <ul class="l-full l-scroll-y">
             <li class="item">
@@ -212,6 +237,36 @@
 
     </article>
 </section>
+<script type="text/javascript">
+    +function (win, doc) {
+        var myBH = {
+            elems: {
+                moreTab: doc.querySelector('.more-tab'),
+                searchMore: doc.querySelector('.search-more'),
+                searchMoreLayer: doc.querySelector('.search-more-layer')
+            },
+            clickMore: function () {
+                this.elems.searchMore.style.display = 'block'
+            },
+            hideMore: function () {
+                this.elems.searchMore.style.display = 'none'
+            },
+            bindEvent: function () {
+                this.elems.moreTab.addEventListener('click', this.clickMore)
+                this.elems.searchMoreLayer.addEventListener('click', this.hideMore)
+            },
+            init: function () {
+                this.bindEvent()
+            }
+        };
+        Object.keys(myBH).forEach(function (key) {
+            if(typeof myBH[key] === 'function') {
+                myBH[key] = myBH[key].bind(myBH)
+            }
+        });
+        myBH.init()
+    }(window, document)
+</script>
 
 </body>
 </html>
