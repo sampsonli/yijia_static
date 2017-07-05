@@ -155,7 +155,8 @@ ul, li{
 
 }
 .input {
-    border: none
+    border: none;
+    -webkit-appearance: none
 }
 .cur {
     border-bottom: .04rem solid #7ea9fe;
