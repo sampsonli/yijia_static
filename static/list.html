@@ -247,9 +247,11 @@
             },
             clickMore: function () {
                 this.elems.searchMore.style.display = 'block'
+                this.elems.moreTab.style.color = '#ffffff'
             },
             hideMore: function () {
                 this.elems.searchMore.style.display = 'none'
+                this.elems.moreTab.style.color = 'black'
             },
             bindEvent: function () {
                 this.elems.moreTab.addEventListener('click', this.clickMore)
