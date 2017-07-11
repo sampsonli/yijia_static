@@ -111,7 +111,7 @@ ul, li{
 }
 
 
-.search-more-dialog {
+.more-dialog {
     position: absolute;
     top: .65rem;
     left: 0;
@@ -121,7 +121,7 @@ ul, li{
     z-index: 2;
     background-color: #f0f0f0;
 }
-.search-more-layer {
+.layer {
     z-index: 1;
     background-color: rgba(0,0,0,.2);
 }
@@ -160,4 +160,52 @@ ul, li{
 }
 .cur {
     border-bottom: .04rem solid #7ea9fe;
+}
+
+.xmmc-search {
+    height: .75rem;
+}
+.xmmc-input {
+    height:.40rem;
+    width: 4.85rem;
+    margin-left: .5rem;
+    border-radius: .1rem;
+    border: .001rem solid gray;
+
+}
+.xmmc-btn {
+    display: inline-block;
+    margin-right: .5rem;
+    vertical-align: middle;
+    height: .34rem;
+    line-height: .34rem;
+    text-align: center;
+    width: .85rem;
+    font-size: .3rem;
+    border-radius: .165rem;
+    overflow: hidden;
+    background-color: #7fa9ff;
+    color: white;
+}
+
+.sydq{
+    padding-bottom: .25rem;
+
+    position: absolute;
+    top: .65rem;
+    left: 0;
+    right: 0;
+    /*padding: .1rem;*/
+    font-size: .18rem;
+    z-index: 2;
+    background-color: #f0f0f0;
+}
+.area {
+    padding-left: 1.1rem;
+    font-size: .2rem;
+}
+.area-item {
+    float: left;
+    width: 1.6rem;
+    margin-top: .25rem;
 }

@@ -20,33 +20,95 @@
 <body>
 <section class="l-flex-column l-full">
     <header class="header l-flex-row">
-        <div class="l-flex-1 l-box-center">全部订单<i class="sjx"></i></div>
-        <div class="l-flex-1 l-box-center">所有地区<i class="sjx"></i></div>
+        <div class="l-flex-1 l-box-center all-tab">全部订单<i class="sjx"></i></div>
+        <div class="l-flex-1 l-box-center sydq-tab">所有地区<i class="sjx"></i></div>
         <div class="l-flex-1 l-box-center more-tab">更多<i class="sjx"></i></div>
     </header>
-    <section class="search-more" style="display: none">
-        <div class="search-more-dialog">
-            <ul class="l-flex-row l-text-center search-more-tab">
-                <li class="l-flex-1 l-w-0 search-more-tab-item cur">开标日期区间查询</li>
-                <li class="l-flex-1 l-w-0 search-more-tab-item">搜索项目名称</li>
+
+    <section class="sydq-select" style="display: none">
+
+        <div class="sydq">
+
+            <ul class="area">
+                <li class="area-item">全国</li>
+                <li class="area-item">抚州市</li>
+                <li class="area-item">景德镇市</li>
+                <li class="area-item">上饶市</li>
+                <li class="area-item">赣州市</li>
             </ul>
-            <ul class="search-more-content">
-                <li class="search-more-content-item l-box-vertical-center-begin">
-                    <span>起始日期：</span>
-                    <input class="input" type="date"/>
-                </li>
-                <li class="search-more-content-item l-box-vertical-center-begin">
-                    <span>结束日期：</span>
-                    <input class="input" type="date"/>
-                </li>
-                <li class="search-more-content-item l-box-vertical-center-begin">
-                    <span>担保公司：</span>
-                    <input  class="input" placeholder="某某某公司"/>
-                </li>
-            </ul>
-            <div class="search-more-btn-qty">查询</div>
         </div>
-        <div class="search-more-layer l-full"></div>
+        <div class="layer l-full"></div>
+    </section>
+    <section class="more-select" style="display: none">
+        <div class="more-dialog">
+            <ul class="l-flex-row l-text-center search-more-tab">
+                <li class="l-flex-1 l-w-0 search-more-tab-item kbsj-tab cur">开标日期区间查询</li>
+                <li class="l-flex-1 l-w-0 search-more-tab-item xmmc-tab">搜索项目名称</li>
+            </ul>
+            <div class="kbsj-search">
+                <ul class="search-more-content">
+                    <li class="search-more-content-item l-box-vertical-center-begin">
+                        <span>起始日期：</span>
+                        <input class="input" type="date"/>
+                    </li>
+                    <li class="search-more-content-item l-box-vertical-center-begin">
+                        <span>结束日期：</span>
+                        <input class="input" type="date"/>
+                    </li>
+                    <li class="search-more-content-item l-box-vertical-center-begin">
+                        <span>担保公司：</span>
+                        <input  class="input" placeholder="某某某公司"/>
+                    </li>
+                </ul>
+                <div class="search-more-btn-qty">查询</div>
+
+            </div>
+            <div class="xmmc-search" style="display:none;">
+                <div style="height: 100%" class="l-box-vertical-center-justify">
+                    <input class="xmmc-input" placeholder="搜索项目名称">
+                    <span class="xmmc-btn">查询</span>
+                </div>
+
+
+
+
+
+
+            </div>
+
+        </div>
+        <div class="layer l-full"></div>
+    </section>
+
+
+    <section class="all-select" style="display: none">
+        <div class="more-dialog">
+            <ul class="l-flex-row l-text-center search-more-tab status-sel">
+                <li class="l-flex-1 l-w-0 search-more-tab-item yzf-tab cur">已支付</li>
+                <li class="l-flex-1 l-w-0 search-more-tab-item dzf-tab">待支付</li>
+                <li class="l-flex-1 l-w-0 search-more-tab-item ykb-tab">已开标</li>
+                <li class="l-flex-1 l-w-0 search-more-tab-item wkb-tab">未开标</li>
+            </ul>
+            <div class="kbsj-search">
+                <ul class="search-more-content">
+                    <li class="search-more-content-item l-box-vertical-center-begin">
+                        <span>起始日期：</span>
+                        <input class="input" type="date"/>
+                    </li>
+                    <li class="search-more-content-item l-box-vertical-center-begin">
+                        <span>结束日期：</span>
+                        <input class="input" type="date"/>
+                    </li>
+                    <li class="search-more-content-item l-box-vertical-center-begin">
+                        <span>担保公司：</span>
+                        <input  class="input" placeholder="某某某公司"/>
+                    </li>
+                </ul>
+                <div class="search-more-btn-qty">查询</div>
+
+            </div>
+        </div>
+        <div class="layer l-full"></div>
     </section>
 
     <article class="l-flex-1 l-relative content">
@@ -242,20 +304,80 @@
         var myBH = {
             elems: {
                 moreTab: doc.querySelector('.more-tab'),
-                searchMore: doc.querySelector('.search-more'),
-                searchMoreLayer: doc.querySelector('.search-more-layer')
+                sydqTab: doc.querySelector('.sydq-tab'),
+                allTab: doc.querySelector('.all-tab'),
+                searchMore: doc.querySelector('.more-select'),
+                allSelect: doc.querySelector('.all-select'),
+                sydqSelect: doc.querySelector('.sydq-select'),
+                moreLayer: doc.querySelector('.more-select .layer'),
+                sydqLayer: doc.querySelector('.sydq-select .layer'),
+                allLayer: doc.querySelector('.all-select .layer'),
+
+                xmmcSearch: doc.querySelector('.xmmc-search'),
+                kbsjSearch: doc.querySelector('.kbsj-search'),
+                kbsjTab: doc.querySelector('.kbsj-tab'),
+                xmmcTab: doc.querySelector('.xmmc-tab'),
+                statusSel: doc.querySelector('.status-sel'),
             },
             clickMore: function () {
                 this.elems.searchMore.style.display = 'block'
                 this.elems.moreTab.style.color = '#ffffff'
             },
+            clickAll: function () {
+                this.elems.allSelect.style.display = 'block'
+                this.elems.allTab.style.color = '#ffffff'
+            },
+            clickSydq: function () {
+                this.elems.sydqSelect.style.display = 'block'
+                this.elems.sydqTab.style.color = '#ffffff'
+            },
+            clickXmmc: function () {
+                this.elems.xmmcSearch.style.display = 'block';
+                this.elems.kbsjSearch.style.display = 'none';
+                this.elems.kbsjTab.classList.remove('cur')
+                this.elems.xmmcTab.classList.remove('cur')
+                this.elems.xmmcTab.classList.add('cur')
+
+            },
+            clickKbsj: function () {
+                this.elems.xmmcSearch.style.display = 'none';
+                this.elems.kbsjSearch.style.display = 'block';
+                this.elems.kbsjTab.classList.remove('cur')
+                this.elems.xmmcTab.classList.remove('cur')
+                this.elems.kbsjTab.classList.add('cur')
+
+            },
+            selectStatus: function (e) {
+                var items = doc.querySelectorAll('.all-select .search-more-tab-item');
+                for(var i = 0, j = items.length; i< j; i++) {
+                    items[i].classList.remove('cur')
+                }
+                e.target.classList.add('cur')
+            },
+
             hideMore: function () {
                 this.elems.searchMore.style.display = 'none'
                 this.elems.moreTab.style.color = 'black'
             },
+            hideSydq: function () {
+                this.elems.sydqSelect.style.display = 'none'
+                this.elems.sydqTab.style.color = 'black'
+            },
+            hideAll: function () {
+                this.elems.allSelect.style.display = 'none'
+                this.elems.allTab.style.color = 'black'
+            },
+
             bindEvent: function () {
                 this.elems.moreTab.addEventListener('click', this.clickMore)
-                this.elems.searchMoreLayer.addEventListener('click', this.hideMore)
+                this.elems.allTab.addEventListener('click', this.clickAll)
+                this.elems.sydqTab.addEventListener('click', this.clickSydq)
+                this.elems.moreLayer.addEventListener('click', this.hideMore);
+                this.elems.sydqLayer.addEventListener('click', this.hideSydq);
+                this.elems.allLayer.addEventListener('click', this.hideAll);
+                this.elems.xmmcTab.addEventListener('click', this.clickXmmc);
+                this.elems.kbsjTab.addEventListener('click', this.clickKbsj);
+                this.elems.statusSel.addEventListener('click', this.selectStatus);
             },
             init: function () {
                 this.bindEvent()
