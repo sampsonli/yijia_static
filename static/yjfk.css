@@ -25,8 +25,12 @@ body{
 
 .header {
     height: .9rem;
-    background-color: red;
+    color: white;
     font-size: .26rem;
+    background: linear-gradient(90deg, #7ca9fd, #1bc2c9);
+}
+.header-center{
+    font-size: .36rem;
 }
 .header-bak {
     margin-left: .2rem;

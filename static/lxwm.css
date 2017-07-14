@@ -25,8 +25,11 @@ body{
 
 .header {
     height: .9rem;
-    background-color: red;
-    font-size: .26rem;
+    color: white;
+    background: linear-gradient(90deg, #7ca9fd, #1bc2c9);
+}
+.header-center{
+    font-size: .36rem;
 }
 .header-bak {
     margin-left: .2rem;
@@ -35,6 +38,12 @@ body{
     margin-right: .2rem;
 }
 
+.logo{
+    height: 2.73rem
+}
+.logo-img{
+    height: 1.51rem
+}
 ul, li{
     margin:0;
     padding: 0;
@@ -50,4 +59,56 @@ ul, li{
     color: #333333;
 
 }
+.khdh {
+    width: .3rem;
+    height: .3rem;
+    vertical-align: middle;
+    margin-right: .1rem;
 
+    display: inline-block;
+    background: url(images/1.png) no-repeat;
+    background-size: contain;
+}
+
+.gfwz {
+    width: .3rem;
+    height: .3rem;
+    vertical-align: middle;
+    margin-right: .1rem;
+
+    display: inline-block;
+    background: url(images/2.png) no-repeat;
+    background-size: contain;
+}
+
+.qyyx {
+    width: .3rem;
+    height: .3rem;
+    vertical-align: middle;
+    margin-right: .1rem;
+    display: inline-block;
+    background: url(images/3.png) no-repeat;
+    background-size: contain;
+}
+
+.gzh {
+    width: .3rem;
+    height: .3rem;
+    vertical-align: middle;
+    margin-right: .1rem;
+
+    display: inline-block;
+    background: url(images/4.png) no-repeat;
+    background-size: contain;
+}
+
+.lxdz {
+    width: .3rem;
+    height: .3rem;
+    vertical-align: middle;
+    margin-right: .1rem;
+
+    display: inline-block;
+    background: url(images/5.png) no-repeat;
+    background-size: contain;
+}
