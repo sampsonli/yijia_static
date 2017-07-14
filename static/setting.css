@@ -1,0 +1,60 @@
+
+.l-box-center{display:-webkit-box; -webkit-box-align: center; -webkit-box-pack: center;display:flex;justify-content: center;align-items: center;  }
+.l-box-vertical-center{display: -webkit-box;-webkit-box-align: center;display: flex;align-items: center;-webkit-box-orient: horizontal; flex-flow: row;}
+.l-box-vertical-center-justify{display: -webkit-box;-webkit-box-orient: horizontal; flex-flow: row; -webkit-box-align: center;-webkit-box-pack: justify;display: flex;align-items: center;justify-content: space-between;}
+.l-box-vertical-center-begin{display: -webkit-box;-webkit-box-orient: horizontal; flex-flow: row; -webkit-box-align: center;-webkit-box-pack: start;display: flex;align-items: center;justify-content: flex-start;}
+.l-box-vertical-center-end{display: -webkit-box;-webkit-box-orient: horizontal; flex-flow: row; -webkit-box-align: center;-webkit-box-pack: end;display: flex;align-items: center;justify-content: flex-end;}
+.l-box-horizontal-center{display: -webkit-box;-webkit-box-pack: center;display: flex;justify-content: center;-webkit-box-orient: horizontal; flex-flow: row;}
+.l-trans-center{position: absolute;top:50%;left:50%;-webkit-transform: translate(-50%,-50%);transform: translate(-50%,-50%);}
+.l-flex-column{ display:-webkit-box; -webkit-box-orient: vertical; display:flex; flex-flow: column;height: 100% }
+.l-flex-row{ display:-webkit-box; -webkit-box-orient: horizontal; display:flex; flex-flow: row; width: 100%}
+.l-flex-1{ -webkit-box-flex: 1; flex:1;overflow: hidden;}
+.l-scroll-y{overflow: auto;-webkit-overflow-scrolling:touch;}
+.l-full{ position: absolute; top:0; left:0; right:0; bottom:0 }
+.l-relative{ position:relative;}
+.l-z-index-1{z-index: 1}
+.l-z-index-2{z-index: 2}
+.l-z-index-0{z-index: 0}
+body{
+    font-family: -apple-system, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimSun, sans-serif;
+    font-size: 14px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+
+.header {
+    height: .9rem;
+    color: white;
+    font-size: .26rem;
+    background: linear-gradient(90deg, #7ca9fd, #1bc2c9);
+}
+.header-center{
+    font-size: .36rem;
+}
+.header-bak {
+    margin-left: .2rem;
+}
+.header-fs {
+    margin-right: .2rem;
+}
+.setting-wrap{
+    background-color: #f0f0f0;
+    padding-top: .2rem;
+}
+.item{
+    padding: .2rem;
+    font-size: .26rem;
+    background-color: #FFFFFF;
+
+}
+.wszl{
+    margin-top: .2rem
+}
+.tips{
+    padding: .24rem;
+    font-size: .16rem;
+}
+.bb{
+    border-bottom: .01rem solid #f0f0f0;
+}
