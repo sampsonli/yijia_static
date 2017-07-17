@@ -67,7 +67,7 @@ ul, li{
     margin-right: .1rem;
 
     display: inline-block;
-    background: url(images/1.png) no-repeat;
+    background: url(../images/1.png) no-repeat;
     background-size: contain;
 }
 
@@ -78,7 +78,7 @@ ul, li{
     margin-right: .1rem;
 
     display: inline-block;
-    background: url(images/2.png) no-repeat;
+    background: url(../images/2.png) no-repeat;
     background-size: contain;
 }
 
@@ -88,7 +88,7 @@ ul, li{
     vertical-align: middle;
     margin-right: .1rem;
     display: inline-block;
-    background: url(images/3.png) no-repeat;
+    background: url(../images/3.png) no-repeat;
     background-size: contain;
 }
 
@@ -99,7 +99,7 @@ ul, li{
     margin-right: .1rem;
 
     display: inline-block;
-    background: url(images/4.png) no-repeat;
+    background: url(../images/4.png) no-repeat;
     background-size: contain;
 }
 
@@ -110,6 +110,6 @@ ul, li{
     margin-right: .1rem;
 
     display: inline-block;
-    background: url(images/5.png) no-repeat;
+    background: url(../images/5.png) no-repeat;
     background-size: contain;
 }
