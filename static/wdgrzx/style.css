@@ -1,0 +1,82 @@
+
+body {
+    background-color: #f0f0f0;
+}
+.header {
+    height: 3rem;
+    font-size: .26rem;
+    background: linear-gradient(90deg, #7ca9fd, #1bc2c9);
+    overflow: hidden;
+}
+.nav {
+    height: 1.5rem
+}
+.nav-item{
+    border: 1px solid red
+}
+
+.items li {
+    height: 1rem;
+    background-color: #FFFFFF;
+    color: black;
+    font-size: .28rem;
+}
+.vip {
+    margin-top: .1rem;
+
+}
+.gxhdy {
+    margin-top: .2rem;
+    border-bottom: .01rem solid #f0f0f0;
+}
+.yjfk{
+    margin-top: .2rem;
+}
+.lxdz, .sz {
+    margin-top: .1rem
+}
+.icon {
+    display: inline-block;
+    width: .44rem;
+    height: .44rem;
+    margin-left: .2rem;
+    margin-right: .2rem;
+}
+.vip .icon {
+    background: url(../images/1.png) no-repeat;
+    background-size: contain;
+}
+.gxhdy .icon{
+    background: url(../images/1.png) no-repeat;
+    background-size: contain;
+}
+.pjyx .icon {
+    background: url(../images/1.png) no-repeat;
+    background-size: contain;
+}
+.yjfk .icon {
+    background: url(../images/1.png) no-repeat;
+    background-size: contain;
+}
+.lxwm .icon {
+    background: url(../images/1.png) no-repeat;
+    background-size: contain;
+}
+.sz .icon {
+    background: url(../images/1.png) no-repeat;
+    background-size: contain;
+}
+.hcontent {
+    margin-top: 1rem;
+    height: 1.45rem;
+    border: .01rem solid red;
+}
+.logo-wrap {
+    width: 2rem;
+    border: .01rem solid red;
+    height: 100%;
+}
+.hmsg {
+    width: 5.5rem;
+    border: .01rem solid red;
+}
