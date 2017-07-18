@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的个人中心</title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <script type="text/javascript">
+        init();
+        window.onresize = init;
+        function init() {
+            document.documentElement.style.fontSize =
+                document.documentElement.clientWidth / 7.5 + 'px';
+        }
+    </script>
+    <link href="../common/base.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<section class="l-full l-scroll-y">
+    <header class="header l-box-vertical-center-justify">
+        <div class="header-bak" onclick="history.back()">&lt;</div>
+    </header>
+    <div class="logo-wrap"></div>
+    <div class="logo-wrap"><span></span></div>
+
+    <div class="xieyi-wrap"><input class="checkbox" type="checkbox"/><span>我同意</span><span class="xieyi">《壹嘉用户服务协议》</span></div>
+    <div class="phone-wrap l-flex-row">
+
+        <input class="l-flex-1 phone-input" placeholder="输入你的手机号">
+        <button class="hqyzm">获取验证码</button>
+    </div>
+    <div class="verify-wrap l-flex-row">
+        <input class="l-flex-1 verify-input" placeholder="输入验证码"/>
+        <button class="fsyzm">53秒后<br/>可重新发送</button>
+
+    </div>
+    <div class="submit-wrap">
+        <button>确&nbsp;&nbsp;定</button>
+    </div>
+
+
+
+</section>
+
+<script>
+
+
+
+</script>
+
+
+</body>
+</html>
