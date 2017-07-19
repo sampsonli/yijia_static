@@ -3,16 +3,23 @@ body {
     background-color: #f0f0f0;
 }
 .header {
-    height: 3rem;
+    height: 3.55rem;
     font-size: .26rem;
     background: linear-gradient(90deg, #7ca9fd, #1bc2c9);
     overflow: hidden;
+
 }
 .nav {
-    height: 1.5rem
+    margin-top: -.5rem;
+    height: 1.67rem;
+    border-top-left-radius: .3rem;
+    border-top-right-radius: .3rem;
+    background-color: #ffffff
 }
 .nav-item{
-    border: 1px solid red
+    /*border: 1px solid red;*/
+    font-size: .22rem;
+    color: #999999;
 }
 
 .items li {
@@ -34,6 +41,14 @@ body {
 }
 .lxdz, .sz {
     margin-top: .1rem
+}
+
+.wdbh-logo{
+    width: .65rem;
+    height: .65rem;
+    border-radius: .325rem;
+    margin-bottom: .15rem;
+    border: 1px solid red;
 }
 .icon {
     display: inline-block;
@@ -69,14 +84,37 @@ body {
 .hcontent {
     margin-top: 1rem;
     height: 1.45rem;
-    border: .01rem solid red;
+    /*border: .01rem solid red;*/
 }
 .logo-wrap {
     width: 2rem;
-    border: .01rem solid red;
+    /*border: .01rem solid red;*/
     height: 100%;
+}
+.avatar {
+    width: 1.45rem;
+    height: 1.45rem;
+    border: .01rem solid red;
+    border-radius: .725rem;
 }
 .hmsg {
     width: 5.5rem;
-    border: .01rem solid red;
+    /*border: .01rem solid red;*/
+    color: white;
+}
+.huser{
+    font-size: .30rem;
+}
+.utype{
+    font-size: .23rem;
+}
+.hbecome{
+    font-size: .16rem;
+    padding: .05rem .25rem;
+    margin-right: .4rem;
+    background-color: orangered;
+}
+.uknow{
+    font-size: .16rem;
+    margin-right: .4rem;
 }
