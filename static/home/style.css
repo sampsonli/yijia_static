@@ -1,0 +1,146 @@
+/**index.wxss**/
+.logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    height: 4.29rem;
+    background: url(./img/bg001.jpg) no-repeat;
+    background-size: 100%;
+}
+.logo-bg{
+    width: 100%;
+
+}
+.head {
+    border: .01rem solid red;
+    border-radius: .2rem;
+    height: 3.44rem;
+    margin: 3.2rem .2rem 0;/*margin: 430rpx 20rpx 0;*/
+}
+
+.head-nav {
+    height: .7rem;
+    border: .01rem solid red;
+    padding: 0 .3rem 0;
+}
+
+.head-nav-item {
+    width: 1.2rem;
+    border-top-left-radius: .2rem;
+    border-top-right-radius: .2rem;
+    border: .01rem solid red;
+    line-height: .7rem;
+    text-align: center;
+    font-size: .29rem;
+}
+
+
+.head-select {
+    background: linear-gradient(#30f4fb, #f0f0f0);
+    /*border: 1rpx solid red;*/
+    padding: 0 .28rem 0;
+    font-size: .14rem;
+    border-radius: .18rem;
+}
+
+.search {
+    height: .50rem;
+    margin-top: .40rem;
+    border: .01rem solid red;
+}
+
+.head-btns {
+    margin: .3rem
+
+    /*border: 1rpx solid red;*/
+}
+
+.head-btn {
+    width: .8rem;
+    height: 1rem;
+    border: .01rem solid red;
+}
+
+.head-btn-icon {
+    border: .01rem solid red;
+    width: .5rem;
+    height: .5rem;
+}
+.icon-img{
+    width: 1rem;
+    height: 1rem;
+}
+.adv-img{
+    width: 100%;
+    height: 2rem;
+}
+
+.head-btn-text {
+    height: .2rem;
+    line-height: .2rem;
+    text-align: center;
+}
+
+.banner {
+    height: 2rem;
+    background: url(./img/adv.jpg) no-repeat;
+    background-size: 100%;
+    border: .01rem solid red;
+}
+
+.news-title {
+    height: .4rem;
+    border: .01rem solid red;
+    font-size: .2rem;
+}
+.news-title-left{
+    line-height: .4rem;
+    float: left;
+    margin-left: .1rem;
+
+
+}
+.news-title-right{
+    line-height: .4rem;
+    float: right;
+}
+.news-item {
+    height: 3rem;
+    border-bottom: .01rem solid red;
+    margin: .2rem;
+    /*padding: .2rem;*/
+}
+.news-content{
+    height: 100%;
+}
+
+.news-img {
+    width: 3rem;
+    border: .01rem solid red;
+}
+
+.news-desc {
+    border: .01rem solid red;
+}
+
+.news-desc-text {
+    border: .01rem solid red;
+}
+
+.news-desc-more {
+    border: .01rem solid red;
+    height: 1rem;
+    font-size: .16rem;
+}
+
+.news-ljxq {
+    line-height: 1rem;
+    float: left;
+}
+
+.news-date {
+    float: right;
+    line-height: 1rem;
+}
