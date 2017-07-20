@@ -8,6 +8,7 @@ body {
     /*background: linear-gradient(90deg, #7ca9fd, #1bc2c9);*/
     overflow: hidden;
     background: url(./img/background.jpg) no-repeat;
+    background-size: 100%;
 
 }
 .nav {
