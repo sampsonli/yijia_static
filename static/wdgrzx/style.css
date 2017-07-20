@@ -5,8 +5,9 @@ body {
 .header {
     height: 3.55rem;
     font-size: .26rem;
-    background: linear-gradient(90deg, #7ca9fd, #1bc2c9);
+    /*background: linear-gradient(90deg, #7ca9fd, #1bc2c9);*/
     overflow: hidden;
+    background: url(./img/background.jpg) no-repeat;
 
 }
 .nav {
@@ -39,17 +40,40 @@ body {
 .yjfk{
     margin-top: .2rem;
 }
-.lxdz, .sz {
+.lxwm, .sz {
     margin-top: .1rem
 }
+
 
 .wdbh-logo{
     width: .65rem;
     height: .65rem;
     border-radius: .325rem;
     margin-bottom: .15rem;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
+    background: url(./img/1.png) no-repeat;
+    background-size: contain;
 }
+
+.sjrz-logo{
+    width: .65rem;
+    height: .65rem;
+    border-radius: .325rem;
+    margin-bottom: .15rem;
+    /*border: 1px solid red;*/
+    background: url(./img/2.png) no-repeat;
+    background-size: contain;
+}
+.scxm-logo{
+    width: .65rem;
+    height: .65rem;
+    border-radius: .325rem;
+    margin-bottom: .15rem;
+    /*border: 1px solid red;*/
+    background: url(./img/3.png) no-repeat;
+    background-size: contain;
+}
+
 .icon {
     display: inline-block;
     width: .44rem;
@@ -58,27 +82,27 @@ body {
     margin-right: .2rem;
 }
 .vip .icon {
-    background: url(../images/1.png) no-repeat;
+    background: url(./img/4.png) no-repeat;
     background-size: contain;
 }
 .gxhdy .icon{
-    background: url(../images/1.png) no-repeat;
+    background: url(./img/5.png) no-repeat;
     background-size: contain;
 }
 .pjyx .icon {
-    background: url(../images/1.png) no-repeat;
+    background: url(./img/6.png) no-repeat;
     background-size: contain;
 }
 .yjfk .icon {
-    background: url(../images/1.png) no-repeat;
+    background: url(./img/7.png) no-repeat;
     background-size: contain;
 }
 .lxwm .icon {
-    background: url(../images/1.png) no-repeat;
+    background: url(./img/8.png) no-repeat;
     background-size: contain;
 }
 .sz .icon {
-    background: url(../images/1.png) no-repeat;
+    background: url(./img/9.png) no-repeat;
     background-size: contain;
 }
 .hcontent {
@@ -94,8 +118,9 @@ body {
 .avatar {
     width: 1.45rem;
     height: 1.45rem;
-    border: .01rem solid red;
+    /*border: .01rem solid red;*/
     border-radius: .725rem;
+    overflow: hidden;
 }
 .hmsg {
     width: 5.5rem;
@@ -117,4 +142,29 @@ body {
 .uknow{
     font-size: .16rem;
     margin-right: .4rem;
+}
+.cert{
+    display: inline-block;
+    height: .35rem;
+    width: .35rem;
+    vertical-align: text-top;
+    background: url(./img/cert.png) no-repeat;
+    background-size: contain;
+
+}
+.vip-icon{
+    display: inline-block;
+    height: .35rem;
+    width: .35rem;
+    vertical-align: text-bottom;
+    background: url(./img/VIP.png) no-repeat;
+    background-size: contain;
+}
+.why-icon{
+    display: inline-block;
+    height: .35rem;
+    width: .35rem;
+    vertical-align: middle;
+    background: url(./img/why.png) no-repeat;
+    background-size: contain;
 }
