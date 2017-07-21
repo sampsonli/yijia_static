@@ -14,32 +14,48 @@
 
 }
 .head {
-    border: .01rem solid red;
+    /*border: .01rem solid red;*/
     border-radius: .2rem;
     height: 3.44rem;
-    margin: 3.2rem .2rem 0;/*margin: 430rpx 20rpx 0;*/
+    margin: 2.7rem .2rem 0;/*margin: 430rpx 20rpx 0;*/
 }
 
 .head-nav {
     height: .7rem;
-    border: .01rem solid red;
+    /*border: .01rem solid red;*/
     padding: 0 .3rem 0;
 }
 
 .head-nav-item {
-    width: 1.2rem;
+    width: 1.44rem;
     border-top-left-radius: .2rem;
     border-top-right-radius: .2rem;
-    border: .01rem solid red;
+    position: relative;
+    top: .01rem;
+    color: #ffffff;
+    /*border: .01rem solid red;*/
     line-height: .7rem;
     text-align: center;
     font-size: .29rem;
+}
+.head-nav-item-comp{
+    background-color: #30f4fb;
+}
+.head-nav-item-person{
+    background-color: #79cafc;
+}
+.head-nav-item-zizhi{
+    background-color: #d893f6;
+}
+.head-nav-item-yeji{
+    background-color: #9b63e7;
 }
 
 
 .head-select {
     background: linear-gradient(#30f4fb, #f0f0f0);
-    /*border: 1rpx solid red;*/
+    /*background: #30f4fb;*/
+    /*border: .01rem solid red;*/
     padding: 0 .28rem 0;
     font-size: .14rem;
     border-radius: .18rem;
@@ -47,100 +63,130 @@
 
 .search {
     height: .50rem;
+    border-radius: .15rem;
     margin-top: .40rem;
-    border: .01rem solid red;
+    border: none;
+    /*border: .01rem solid red;*/
 }
 
 .head-btns {
-    margin: .3rem
-
-    /*border: 1rpx solid red;*/
+    /*margin-top: .1rem;*/
+    /*border: .01rem solid red;*/
 }
 
 .head-btn {
-    width: .8rem;
-    height: 1rem;
-    border: .01rem solid red;
+    /*height: 1.2rem;*/
+    /*border: .01rem solid red;*/
 }
 
 .head-btn-icon {
-    border: .01rem solid red;
-    width: .5rem;
-    height: .5rem;
+    /*border: .01rem solid red;*/
+    width: .43rem;
+    height: .45rem;
 }
 .icon-img{
     width: 1rem;
     height: 1rem;
 }
-.adv-img{
-    width: 100%;
-    height: 2rem;
+
+.icon-lxfs{
+    background: url(./img/5.png) no-repeat;
+    background-size: 100%;
+}
+.icon-zbxx{
+    background: url(./img/6.png) no-repeat;
+    background-size: 100%;
+}
+
+.icon-xysj{
+    background: url(./img/7.png) no-repeat;
+    background-size: 100%;
+}
+.icon-all{
+    background: url(./img/8.png) no-repeat;
+    background-size: 100%;
 }
 
 .head-btn-text {
-    height: .2rem;
+    /*height: .2rem;*/
+    margin-top: .1rem;
+    font-size: .16rem;
     line-height: .2rem;
     text-align: center;
 }
 
 .banner {
-    height: 2rem;
+    margin-top: .2rem;
+    height: 1.75rem;
     background: url(./img/adv.jpg) no-repeat;
     background-size: 100%;
-    border: .01rem solid red;
+    /*border: .01rem solid red;*/
 }
 
 .news-title {
     height: .4rem;
-    border: .01rem solid red;
+    /*border: .01rem solid red;*/
+    background-color: #f0f0f0;
     font-size: .2rem;
+    margin-top: .15rem;
+    padding: 0 .25rem;
 }
 .news-title-left{
     line-height: .4rem;
     float: left;
-    margin-left: .1rem;
+    font-size: .22rem;
+    color: #333333;
 
 
 }
 .news-title-right{
     line-height: .4rem;
     float: right;
+    color: #999999;
+
 }
 .news-item {
-    height: 3rem;
-    border-bottom: .01rem solid red;
-    margin: .2rem;
-    /*padding: .2rem;*/
+    border-bottom: .01rem solid #999999;
+    padding: .15rem;
 }
 .news-content{
-    height: 100%;
+    height: 1rem;
 }
 
+.news-img-wrap {
+    width: 2.8rem;
+    /*border: .01rem solid red;*/
+}
 .news-img {
-    width: 3rem;
-    border: .01rem solid red;
+    height: 1rem;
 }
 
 .news-desc {
-    border: .01rem solid red;
+    margin-left: .3rem;
+    /*border: .01rem solid red;*/
 }
 
 .news-desc-text {
-    border: .01rem solid red;
+    /*border: .01rem solid red;*/
+    font-size: .22rem;
+    line-height: .46rem;
 }
 
 .news-desc-more {
-    border: .01rem solid red;
-    height: 1rem;
+    /*border: .01rem solid red;*/
+    /*height: 1rem;*/
     font-size: .16rem;
+    padding: .05rem;
 }
 
 .news-ljxq {
-    line-height: 1rem;
+    /*line-height: 1rem;*/
     float: left;
+    color: #30f4fb;
 }
 
 .news-date {
     float: right;
-    line-height: 1rem;
+    /*line-height: 1rem;*/
+    color: gray;
 }
