@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>完善资料</title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport"
+          content="width=device-width,target-densitydpi=high-dpi,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <script type="text/javascript">
+        init();
+        window.onresize = init;
+        function init() {
+            document.documentElement.style.fontSize =
+                document.documentElement.clientWidth / 7.5 + 'px';
+        }
+    </script>
+    <link href="../common/base.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<section class="l-flex-column l-full">
+    <header class="header l-box-vertical-center-justify">
+        <div class="header-bak" onclick="history.back()">&lt;</div>
+        <div class="header-center">完善资料</div>
+        <div class="header-fs"></div>
+
+    </header>
+    <section class="l-flex-1 l-relative">
+
+        <div class="l-full l-scroll-y">
+            <ul class="wrap">
+                <li class="l-flex-row item">
+                    <div class="itemL">姓名：</div>
+                    <div class="l-flex-1 itemR"><input class="name-input"></div>
+                </li>
+                <li class="l-flex-row item">
+                    <div class="itemL">性别：</div>
+                    <div class="l-flex-1 itemR">
+                        <input type="radio" name="sex" id="male"><label for="male">男</label>
+                        <input type="radio" name="sex" id="female"><label for="female">女</label>
+                    </div>
+                </li>
+                <li class="l-flex-row item">
+                    <div class="itemL">地址：</div>
+                    <div class="l-flex-1 itemR address l-w-0 l-flex-row">
+                        <select class="l-w-0 l-flex-1 addr1-input">
+                            <option> 地址1</option>
+
+                        </select>
+                        <select class="l-w-0 l-flex-1 addr2-input">
+                            <option> 地址1</option>
+                        </select>
+                    </div>
+                </li>
+
+                <li class="l-flex-row item">
+                    <div class="itemL">企业名称：</div>
+                    <div class="l-flex-1 itemR"><input></div>
+                </li>
+
+                <li class="l-flex-row item">
+                    <div class="itemL">用户类型：</div>
+                    <div class="l-flex-1 itemR">
+                        <select>
+                            <option>施工单位</option>
+
+                        </select>
+                    </div>
+                </li>
+                <li class="l-flex-row item">
+                    <div class="itemL">职务：</div>
+                    <div class="l-flex-1 itemR">
+                        <select>
+                            <option>法人</option>
+
+                        </select>
+                    </div>
+                </li>
+            </ul>
+            <div class="l-box-center btn-wrap">
+                <button class="finish-btn">完&nbsp;&nbsp;&nbsp;成</button>
+            </div>
+            <div class="l-box-center btn-wrap">
+                <button class="skip-btn">跳&nbsp;&nbsp;&nbsp;过</button>
+            </div>
+        </div>
+    </section>
+
+</section>
+
+
+</body>
+</html>
