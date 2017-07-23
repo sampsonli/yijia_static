@@ -14,4 +14,27 @@
 .header-fs {
     margin-right: .2rem;
 }
+.wrap{
+    padding: .2rem .55rem 0 .55rem;
+}
 
+.item {
+    margin-bottom: .36rem;
+}
+.item-name{
+    font-size: .3rem;
+    color: #333333;
+    margin-bottom: .37rem;
+}
+.item-val{
+    font-size: .25rem;
+    color: #999999;
+    padding-left: .2rem;
+}
+.vline{
+    border-left: .01rem solid #a0a0a0;
+    padding-left: .2rem;
+}
+.comp {
+    color: #7dabfc
+}
