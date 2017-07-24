@@ -28,7 +28,7 @@ body{
     /*margin-top: 4rem;*/
 }
 .item{
-    height: .4rem;
+    height: .6rem;
     line-height: .4rem;
     margin: .73rem 0;
 }
@@ -43,6 +43,8 @@ input, select{
     border: .01rem solid darkgray;
     box-sizing: border-box;
     background-color: inherit;
+    height: .6rem;
+    vertical-align: middle;
 }
 select{
     width: 100%;
