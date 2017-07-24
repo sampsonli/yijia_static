@@ -2,7 +2,7 @@
 .header {
     height: .9rem;
     color: white;
-    background: linear-gradient(90deg, #7ca9fd, #1bc2c9);
+    /*background: linear-gradient(90deg, #7ca9fd, #1bc2c9);*/
 }
 .header-center{
     font-size: .36rem;
@@ -14,10 +14,14 @@
 .header-fs {
     margin-right: .2rem;
 }
-
+body{
+    background: url(./img/bg.jpg) no-repeat;
+    background-size: 100%;
+}
 .wrap{
     width: 4.15rem;
     margin-left: .9rem;
+    margin-top: 4rem;
 }
 .item{
     height: .4rem;

@@ -2,6 +2,13 @@
 body {
     background-color: #f0f0f0;
 }
+.wrap {
+    background: url(./img/bg.jpg) no-repeat;
+    background-size: 100%;
+}
+.content {
+    margin-top: 7rem;
+}
 .header{
     height: .9rem;
 }
