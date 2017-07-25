@@ -1,0 +1,30 @@
+
+body{
+    background-color: #f0f0f0;
+}
+.header {
+    height: .9rem;
+    color: white;
+    font-size: .26rem;
+    background: linear-gradient(90deg, #7ca9fd, #1bc2c9);
+}
+.header-center{
+    font-size: .36rem;
+}
+.header-bak {
+    font-size: .5rem;
+    margin-left: .2rem;
+}
+.header-fs {
+    margin-right: .2rem;
+}
+.head-section{
+
+    width: 5.5rem;
+    height: 2.75rem;
+    background-color: white;
+    margin: 0 auto;
+}
+.h-item{
+    border: .01rem solid red;
+}
