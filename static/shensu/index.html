@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>申诉</title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <script type="text/javascript">
+        init();
+        window.onresize = init;
+        function init(){
+            document.documentElement.style.fontSize =
+                document.documentElement.clientWidth / 7.5 + 'px';
+        }
+    </script>
+    <link href="../common/base.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<section class="l-flex-column l-full">
+    <header class="header l-box-vertical-center-justify">
+        <div class="header-bak" onclick="history.back()">&lt;</div>
+        <div class="header-center">申诉</div>
+        <div class="header-fs"></div>
+
+    </header>
+    <section class="l-flex-1 l-relative">
+
+        <div class="l-full l-scroll-y">
+            <div class="txtarea-wrap">
+                <label for="txt" class="txt-label">我有话说（必填）</label>
+                <textarea id="txt" class="textarea" placeholder="你可以在这里写下对该企业的意见或建议（最少10个字）"></textarea>
+                <span class="info">0/100</span>
+                <span class="tips">温馨提示： 请文明用语！禁止发表淫秽色情， 反动暴力，否则追究相关责任。</span>
+            </div>
+
+            <div class="btn-wrap">
+                <button class="btn">提交</button>
+            </div>
+
+
+
+
+
+        </div>
+    </section>
+
+</section>
+
+
+</body>
+</html>
