@@ -18,6 +18,12 @@ body{
 .header-fs {
     margin-right: .2rem;
 }
+.title{
+    height: 1rem;
+    font-size: .33rem;
+    font-weight: bolder;
+
+}
 .head-section{
 
     width: 5.5rem;
@@ -26,5 +32,22 @@ body{
     margin: 0 auto;
 }
 .h-item{
-    border: .01rem solid red;
+    border-bottom: .01rem solid #f8f8f8;
+    padding-left: .4rem;
+}
+.logo{
+    height: 1.72rem;
+    margin-top: .2rem;
+    background: url("./img/adv.jpg") no-repeat;
+    background-size: 100%;
+}
+
+.section{
+    background-color: white;
+    padding: .2rem 0;
+    display: inline-block;
+}
+.sect-ct{
+    width: 5rem;
+    height: 1.31rem
 }

@@ -22,18 +22,17 @@
 
 .head-nav {
     height: .7rem;
-    /*border: .01rem solid red;*/
+    border: none;
     padding: 0 .3rem 0;
 }
 
 .head-nav-item {
+    height: 100%;
     width: 1.44rem;
     border-top-left-radius: .2rem;
     border-top-right-radius: .2rem;
     position: relative;
-    top: .01rem;
     color: #ffffff;
-    /*border: .01rem solid red;*/
     line-height: .7rem;
     text-align: center;
     font-size: .29rem;
