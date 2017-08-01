@@ -1,0 +1,108 @@
+
+
+.header {
+    height: .9rem;
+    color: white;
+    font-size: .26rem;
+    background: linear-gradient(90deg, #7ca9fd, #1bc2c9);
+}
+.header-center{
+    font-size: .36rem;
+}
+.header-bak {
+    font-size: .5rem;
+    margin-left: .2rem;
+}
+.header-fs {
+    margin-right: .2rem;
+}
+.user-info{
+    height: 2.9rem;
+    border: .01rem solid red;
+}
+.avata{
+    border: .01rem solid red;
+    border-radius: .725rem;
+    height: 1.45rem;
+    width: 1.45rem;
+}
+.hytc-tit{
+    padding: .1rem;
+    font-size: .14rem;
+    border: .01rem solid red;
+}
+.hytc-d {
+    height: .8rem;
+    border: .01rem solid red;
+}
+.zf{
+    height: 1rem;
+    border: .01rem solid red;
+}
+.zfb-icon{
+    vertical-align: middle;
+    display: inline-block;
+    width: .47rem;
+    height: .47rem;
+    background: url(./img/2.png) no-repeat;
+    background-size: 100%;
+}
+.wxzf-icon{
+    vertical-align: middle;
+    display: inline-block;
+    width: .47rem;
+    height: .47rem;
+    background: url(./img/2.png) no-repeat;
+    background-size: 100%;
+}
+.btn-w{
+    height: 1rem;
+    border-bottom: .01rem solid #f0f0f0;
+}
+.btn{
+    border: none;
+    background-color: #ec6a41;
+    color: #ffffff;
+    padding: .1rem .4rem;
+    border-radius: .2rem;
+    font-size: .26rem;
+}
+.tq-tip{
+    padding: .1rem;
+}
+.tq-item{
+    height: 1.5rem;
+    width: 33.3%;
+    box-sizing: border-box;
+    border: .01rem solid red;
+    float: left;
+}
+.icon{
+    height: .7rem;
+    width: .75rem;
+}
+.jzs-icon{
+    background: url(./img/6.jpg) no-repeat;
+    background-size: 100%;
+}
+
+.xg-icon{
+    background: url(./img/7.jpg) no-repeat;
+    background-size: 100%;
+}
+
+.qyk-icon{
+    background: url(./img/8.png) no-repeat;
+    background-size: 100%;
+}
+.xxzd-icon{
+    background: url(./img/9.png) no-repeat;
+    background-size: 100%;
+}
+.zddy-icon{
+    background: url(./img/10.png) no-repeat;
+    background-size: 100%;
+}
+.ml2{
+    margin-left: .2rem;
+}

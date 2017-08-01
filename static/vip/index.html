@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>设置</title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <script type="text/javascript">
+        init();
+        window.onresize = init;
+        function init() {
+            document.documentElement.style.fontSize =
+                document.documentElement.clientWidth / 7.5 + 'px';
+        }
+    </script>
+    <link href="../common/base.css" rel="stylesheet" type="text/css">
+
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<section class="l-flex-column l-full">
+    <header class="header l-box-vertical-center-justify">
+        <div class="header-bak" onclick="history.back()">&lt;</div>
+        <div class="header-center">VIP</div>
+        <div class="header-fs"></div>
+
+    </header>
+    <section class="l-flex-1 l-relative">
+
+        <div class="l-full l-scroll-y">
+            <div class="user-info l-box-center">
+                <div class="avata"></div>
+                <div>普通会员</div>
+                <div>123456</div>
+
+            </div>
+
+            <div class="hytc-tit">
+                会员套餐
+            </div>
+
+            <div class="hytc-d l-box-vertical-center-justify">
+                <span>三年vip会员</span>
+                <span>1668元<span>566元</span></span>
+
+            </div>
+            <div class="hytc-d l-box-vertical-center-justify">
+                <span>二年vip会员</span>
+                <span>1668元<span>566元</span></span>
+            </div>
+            <div class="hytc-d l-box-vertical-center-justify">
+                <span>一年vip会员</span>
+                <span>588元<span>266元</span></span>
+            </div>
+            <div class="zf l-box-vertical-center-justify">
+                <div class="ml2"><i class="wxzf-icon"></i>微信支付</div>
+                <span><input type="radio" name="zf"></span>
+            </div>
+
+            <div class="zf l-box-vertical-center-justify">
+                <div class="ml2"><i class="zfb-icon"></i>支付宝支付</div>
+                <span><input type="radio" name="zf"></span>
+            </div>
+            <div class="btn-w l-box-center">
+                <button class="btn">
+                    立即成为vip
+                </button>
+
+            </div>
+            <div class="tq-tip l-box-center">
+                特权
+            </div>
+            <div class="tq-w">
+                <div class="tq-item l-box-center">
+                    <div class="icon jzs-icon"></div>
+
+                    <span>建造师信息</span>
+                </div>
+                <div class="tq-item l-box-center">
+                    <div class="icon xg-icon"></div>
+                    <span>相关信息</span>
+                </div>
+                <div class="tq-item l-box-center">
+                    <div class="icon qyk-icon"></div>
+                    <span>企业库信息</span>
+                </div>
+                <div class="tq-item l-box-center">
+                    <div class="icon xxzd-icon"></div>
+                    <span>信息自动推送</span>
+                </div>
+                <div class="tq-item l-box-center">
+                    <div class="icon zddy-icon"></div>
+                    <span>主动订阅推送</span>
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+    </section>
+
+</section>
+
+
+</body>
+</html>
